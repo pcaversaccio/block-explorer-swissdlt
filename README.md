@@ -31,6 +31,7 @@
   - [Start explorer](#start-the-explorer)
   - [Configurations](#configurations)
 - [Resources](#resources)
+- [Original Repository](#original-repository)
 
 <!-- about the project -->
 ## About the Project
@@ -143,5 +144,5 @@ REACT_APP_SERVICE_RUNNER_URL=https://swissdlt-dev.appswithlove.net/rpc/ npm star
 - [OpenRPC](https://open-rpc.org)
 - [Pristine](https://github.com/etclabscore/pristine)
 
-## Origial Repository
+## Original Repository
 This repository has been forked from [here](https://github.com/xops/expedition).
