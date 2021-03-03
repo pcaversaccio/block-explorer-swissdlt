@@ -55,7 +55,7 @@ Explorer Features:
 ### Installation
 Clone/ download the project, and install dependencies.
 ```bash
-git clone https://github.com/pcaversaccio/block-explorer-swissdlt.git && cd expedition && npm install
+git clone https://github.com/pcaversaccio/block-explorer-swissdlt.git && cd block-explorer-swissdlt && npm install
 ```
 
 <!-- example usage, screen shots, demos -->
