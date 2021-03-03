@@ -59,8 +59,8 @@ git clone https://github.com/etclabscore/expedition.git && cd expedition && npm 
 
 <!-- example usage, screen shots, demos -->
 ## Usage
-### Run service
-If you don't have a [service-runner](https://github.com/etclabscore/jade-service-runner) running, then you can use the one in the package.json via: (or see the configuration section below to provide your own ethereum rpc URL):
+### Run Service
+If you don't have a [service-runner](https://github.com/etclabscore/jade-service-runner) running, then you can use the one in the package.json via: (or see the configuration section below to provide your own ethereum RPC URL):
 ```bash
 npm run service-runner
 ```
@@ -85,7 +85,7 @@ By default, core-geth service will run ETC mainnet. Jade Service runner convenie
                     └── keystore
 ```
 
-### Start the explorer
+### Start the Explorer
 ```bash
 npm start
 ```
@@ -93,15 +93,15 @@ npm start
 
 ### Configurations Awl
 
-#### Set rpc via url
+#### Set RPC via URL
 
 `?rpcUrl=` Set custom rpc url.
 
 Example: https://expedition.dev/?rpcUrl=https://swissdlt-dev.appswithlove.net/rpc/
 
-#### Configure default urls via environment variables
+#### Configure Default URLs via Environment Variables
 
-Override eth url
+Override the ETH URL:
 
 *Windows (cmd.exe)*
 ```
@@ -120,7 +120,7 @@ REACT_APP_ETH_RPC_URL=https://swissdlt-dev.appswithlove.net/rpc/ npm start
 
 **OR**
 
-Override service runner url
+Override the service runner URL:
 
 *Windows (cmd.exe)*
 ```
@@ -142,5 +142,3 @@ REACT_APP_SERVICE_RUNNER_URL=https://swissdlt-dev.appswithlove.net/rpc/ npm star
 - [Jade Service Runner](https://github.com/etclabscore/jade-service-runner)
 - [OpenRPC](https://open-rpc.org)
 - [Pristine](https://github.com/etclabscore/pristine)
-
----
