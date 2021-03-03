@@ -1,4 +1,4 @@
-# Expedition
+# Swiss DLT Block Explorer
 
 <!-- project logo w/ quick links -->
 <p align="center">
@@ -22,7 +22,7 @@
 
 <!-- table of contents -->
 ## Table of Contents
-  - [About The Project](#about-the-project)
+  - [About the Project](#about-the-project)
   - [Getting Started](#getting-started)
       - [Prerequisites](#prerequisites)
       - [Installation](#installation)
@@ -30,12 +30,10 @@
   - [Run Service](#run-service)
   - [Start explorer](#start-the-explorer)
   - [Configurations](#configurations)
-- [Contributing](#contributing)
 - [Resources](#resources)
 
 <!-- about the project -->
-## About The Project
-
+## About the Project
 [Expedition](https://expedition.dev) is a minimal block explorer for Ethereum Stack and utilizes [Jade Service Runner](https://github.com/etclabscore/jade-service-runner) for managing background services (Multi-Geth), OpenRPC for underlying functionality, and Pristine. It does not use a database, and can be configured to point at any remote RPC node for any EVM-based network. The goal of Jade Explorer is to provide a resource for network information and block exploration.
 
 Explorer Features:
@@ -136,21 +134,9 @@ set "REACT_APP_SERVICE_RUNNER_URL=https://swissdlt-dev.appswithlove.net/rpc/" &&
 
 *Linux, macOS (Bash)*
 ```
-REACT_APP_SERVICE_RUNNER_URL=https://services.jade.builders/ npm start
+REACT_APP_SERVICE_RUNNER_URL=https://swissdlt-dev.appswithlove.net/rpc/ npm start
 ```
 
-<!-- template just leave alone  -->
-## Roadmap
-See the [open issues](https://github.com/etclabscore/expedition/issues) for a list of proposed features (and known issues).
-
-<!-- template just leave alone  -->
-## Contributing
-How to contribute, build and release are outlined in [CONTRIBUTING.md](CONTRIBUTING.md), [BUILDING.md](BUILDING.md) and [RELEASING.md](RELEASING.md) respectively. Commits in this repository follow the [CONVENTIONAL_COMMITS.md](CONVENTIONAL_COMMITS.md) specification.
-
-## License
-Apache License 2.0
-
-<!-- references and additional resources  -->
 ## Resources
 - [Ethereum JSON RPC Specification](https://github.com/etclabscore/ethereum-json-rpc-specification)
 - [Jade Service Runner](https://github.com/etclabscore/jade-service-runner)
@@ -158,4 +144,3 @@ Apache License 2.0
 - [Pristine](https://github.com/etclabscore/pristine)
 
 ---
-*This repo originally forked from [ETCDEVTeam/emerald-explorer](https://github.com/ETCDEVTeam/emerald-explorer).*
